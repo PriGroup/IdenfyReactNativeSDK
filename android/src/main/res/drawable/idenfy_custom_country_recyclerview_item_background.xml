@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+            <!-- This is the line -->
+            <item>
+                <shape>
+                    <padding
+                        android:bottom="2dp"
+                        android:left="2dp"
+                        android:right="2dp"
+                        android:top="0dp" />
+                    <solid android:color="@color/idenfyCountrySelectionViewCountryRecyclerViewItemBorderColor" />
+                </shape>
+            </item>
+            <!-- This is the main color -->
+            <item>
+                <shape>
+                    <solid android:color="@color/idenfyCountrySelectionViewCountryRecyclerViewItemBackgroundColor" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</layer-list>
