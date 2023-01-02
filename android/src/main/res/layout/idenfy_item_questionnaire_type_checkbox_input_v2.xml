@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.idenfy.idenfySdk.uicomponents.IDenfyTextView
+        android:id="@+id/idenfy_textview_question_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text=""
+        android:textAlignment="center"
+        android:theme="@style/idenfyQuestionnaireViewQuestionItemTitleStyle"
+        app:customfont="hkgrotesk_bold.ttf"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.idenfy.idenfySdk.uicomponents.IDenfyTextView
+        android:id="@+id/idenfy_textview_question_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text=""
+        android:textAlignment="center"
+        android:theme="@style/idenfyQuestionnaireViewQuestionItemDescriptionStyle"
+        app:customfont="hkgrotesk_regular.ttf"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/idenfy_textview_question_title" />
+
+    <CheckBox
+        android:id="@+id/idenfy_checkbox_question_choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:buttonTint="@color/idenfyQuestionnaireViewCheckBoxQuestionItemCheckBoxColor"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/idenfy_textview_question_choice_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/idenfy_textview_question_choice_title" />
+
+    <com.idenfy.idenfySdk.uicomponents.IDenfyTextView
+        android:id="@+id/idenfy_textview_question_choice_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_weight="1"
+        android:gravity="start"
+        android:text=""
+        android:theme="@style/idenfyQuestionnaireViewCheckBoxQuestionItemCheckBoxDescriptionStyle"
+        app:customfont="hkgrotesk_regular.ttf"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/idenfy_checkbox_question_choice"
+        app:layout_constraintTop_toBottomOf="@+id/idenfy_textview_question_description" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

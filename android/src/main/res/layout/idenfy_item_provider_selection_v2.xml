@@ -1,0 +1,48 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/idenfy_custom_provider_recyclerview_item_background"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    app:layout_constraintHeight_min="56dp">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/idenfy_lottie_animation_loading"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="8dp"
+        app:tint="@color/idenfyWhite"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/idenfy_custom_country_loader" />
+
+    <com.idenfy.idenfySdk.uicomponents.IDenfyTextView
+        android:id="@+id/idenfy_textview_provider_item_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:paddingEnd="50dp"
+        android:paddingRight="50dp"
+        android:text=""
+        android:theme="@style/idenfyProviderSelectionViewProviderRecyclerViewItemTitleStyle"
+        app:customfont="hkgrotesk_regular.ttf"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/idenfy_lottie_animation_loading"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:underline="false" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

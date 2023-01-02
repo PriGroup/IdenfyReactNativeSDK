@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.idenfy.idenfySdk.uicomponents.IDenfyTextView
+        android:id="@+id/idenfy_textview_question_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text=""
+        android:textAlignment="center"
+        android:theme="@style/idenfyQuestionnaireViewQuestionItemTitleStyle"
+        app:customfont="hkgrotesk_bold.ttf"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.idenfy.idenfySdk.uicomponents.IDenfyTextView
+        android:id="@+id/idenfy_textview_question_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:text=""
+        android:theme="@style/idenfyQuestionnaireViewQuestionItemDescriptionStyle"
+        app:customfont="hkgrotesk_regular.ttf"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/idenfy_textview_question_title" />
+
+    <com.idenfy.idenfySdk.uicomponents.IDenfyEditText
+        android:id="@+id/idenfy_et_input_view"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/idenfy_custom_questionnaire_text_question_input_item_background"
+        android:imeOptions="actionNext"
+        android:inputType="textPersonName"
+        android:maxLength="50"
+        android:paddingBottom="2dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="20dp"
+        android:textColor="@color/idenfyQuestionnaireViewTextQuestionItemEditTextTitleColor"
+        android:textColorHint="@color/idenfyQuestionnaireViewTextQuestionItemEditTextHintColor"
+        android:textSize="16sp"
+        app:customfont="hkgrotesk_regular.ttf"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/idenfy_textview_question_description" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

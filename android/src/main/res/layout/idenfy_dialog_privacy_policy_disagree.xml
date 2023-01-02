@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/idenfyPrivacyPolicyDisagreeDialogViewBackgroundColor"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <com.idenfy.idenfySdk.uicomponents.IDenfyTextView
+            android:id="@+id/idenfy_textview_dialog_instructions_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            android:gravity="center"
+            android:text="@string/idenfy_privacy_policy_alert_title_v2"
+            android:theme="@style/idenfyPrivacyPolicyDisagreeDialogViewTitleStyle"
+            app:customfont="hkgrotesk_bold.ttf"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.idenfy.idenfySdk.uicomponents.IDenfyTextView
+            android:id="@+id/idenfy_textview_common_information_description"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:gravity="center"
+            android:text="@string/idenfy_privacy_policy_alert_description_v2"
+            android:textAlignment="center"
+            android:theme="@style/idenfyPrivacyPolicyDisagreeDialogViewDescriptionStyle"
+            app:customfont="hkgrotesk_regular.ttf"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/idenfy_textview_dialog_instructions_title" />
+
+        <ImageView
+            android:id="@+id/idenfy_spinkitview_photo_result_loading_photo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="32dp"
+            android:src="@drawable/idenfy_ic_privacy_policy_warning"
+            app:layout_constraintBottom_toTopOf="@+id/idenfy_button_privacy_policy_agree_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/idenfy_textview_common_information_description" />
+
+        <com.idenfy.idenfySdk.uicomponents.IDenfyButton
+            android:id="@+id/idenfy_button_privacy_policy_agree_button"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/idenfy_ic_gradient_button_background"
+            android:gravity="center"
+            android:text="@string/idenfy_privacy_policy_alert_agree_button_title_v2"
+            android:theme="@style/idenfyPrivacyPolicyDisagreeDialogAgreeButtonStyle"
+            app:customfont="hkgrotesk_bold.ttf"
+            app:layout_constraintBottom_toTopOf="@+id/idenfy_imageview_privacy_policy_cancel_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/idenfy_imageview_privacy_policy_cancel_button"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="32dp"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/idenfy_ic_retake_photo_button_v2" />
+
+        <com.idenfy.idenfySdk.uicomponents.IDenfyTextView
+            android:id="@+id/idenfy_imageview_privacy_policy_cancel_button_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/idenfy_privacy_policy_alert_cancel_button_title_v2"
+            android:theme="@style/idenfyPrivacyPolicyDisagreeDialogViewCancelButtonTitleStyle"
+            app:customfont="hkgrotesk_bold.ttf"
+            app:layout_constraintBottom_toBottomOf="@+id/idenfy_imageview_privacy_policy_cancel_button"
+            app:layout_constraintEnd_toEndOf="@+id/idenfy_imageview_privacy_policy_cancel_button"
+            app:layout_constraintStart_toStartOf="@+id/idenfy_imageview_privacy_policy_cancel_button"
+            app:layout_constraintTop_toTopOf="@+id/idenfy_imageview_privacy_policy_cancel_button" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

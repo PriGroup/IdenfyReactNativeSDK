@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/idenfyQuestionnaireViewBackgroundColor"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.idenfy.idenfySdk.uicomponents.IDenfyTextView
+        android:id="@+id/idenfy_textview_issuing_country_selection_select_country_hint"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/idenfyCountrySelectionViewCountrySearchBarBackgroundColor"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:paddingLeft="16dp"
+        android:text="@string/idenfy_country_selection_view_searchbar_hint_v2"
+        android:theme="@style/idenfyCountrySelectionViewCountrySearchBarHintStyle"
+        app:customfont="hkgrotesk_regular.ttf"
+        app:layout_constraintBottom_toBottomOf="@+id/idenfy_searchview_issuing_country_selection_select_country"
+        app:layout_constraintEnd_toEndOf="@+id/idenfy_searchview_issuing_country_selection_select_country"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/idenfy_searchview_issuing_country_selection_select_country"
+        app:layout_constraintTop_toTopOf="@+id/idenfy_searchview_issuing_country_selection_select_country" />
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/idenfy_searchview_issuing_country_selection_select_country"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/idenfy_custom_country_searchview_background"
+        android:paddingStart="-5dp"
+        android:paddingLeft="-5dp"
+        android:theme="@style/idenfyCountrySelectionViewCountrySearchBarStyle"
+        app:closeIcon="@null"
+        app:iconifiedByDefault="false"
+        app:layout_constraintEnd_toEndOf="@+id/idenfy_recyclerview_issuing_country_selection_select"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="@+id/idenfy_recyclerview_issuing_country_selection_select"
+        app:layout_constraintTop_toTopOf="parent"
+        app:queryBackground="@android:color/transparent"
+        app:searchIcon="@null" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/idenfy_imageview_issuing_country_selection_select_country_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        app:layout_constraintBottom_toBottomOf="@+id/idenfy_textview_issuing_country_selection_select_country_hint"
+        app:layout_constraintEnd_toEndOf="@+id/idenfy_recyclerview_issuing_country_selection_select"
+        app:layout_constraintTop_toTopOf="@+id/idenfy_textview_issuing_country_selection_select_country_hint"
+        app:srcCompat="@drawable/idenfy_ic_country_search" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/idenfy_recyclerview_issuing_country_selection_select"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/idenfy_custom_country_recyclerview_background"
+        android:overScrollMode="never"
+        android:splitMotionEvents="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idenfy_searchview_issuing_country_selection_select_country" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
