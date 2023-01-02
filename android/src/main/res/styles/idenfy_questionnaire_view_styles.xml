@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="idenfyQuestionnaireViewAppBarSectionNumbersStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/idenfyQuestionnaireViewDescriptionTextColor</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="idenfyQuestionnaireViewTitleStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/idenfyQuestionnaireViewTitleTextColor</item>
+        <item name="android:textSize">
+            @dimen/idenfy_dimen_country_selection_view_information_title_text_size
+        </item>
+    </style>
+    <style name="idenfyQuestionnaireViewDescriptionStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/idenfyQuestionnaireViewDescriptionTextColor</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+    <style name="idenfyQuestionnaireViewSectionTitleStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/idenfyQuestionnaireViewSectionTitleTextColor</item>
+        <item name="android:textSize">
+            @dimen/idenfy_dimen_country_selection_view_information_title_text_size
+        </item>
+    </style>
+    <style name="idenfyQuestionnaireViewSectionDescriptionStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/idenfyQuestionnaireViewSectionDescriptionTextColor</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="idenfyQuestionnaireViewButtonStyle" parent="android:Widget.Button">
+        <item name="android:textColor">
+            @color/idenfyQuestionnaireViewContinueButtonDisabledTextColor
+        </item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="idenfyQuestionnaireViewQuestionItemTitleStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/idenfyQuestionnaireViewQuestionItemTitleTextColor</item>
+        <item name="android:textSize">
+            @dimen/idenfy_dimen_country_selection_view_information_title_text_size
+        </item>
+    </style>
+
+    <style name="idenfyQuestionnaireViewQuestionItemDescriptionStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/idenfyQuestionnaireViewQuestionItemDescriptionTextColor</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="idenfyQuestionnaireViewCheckBoxQuestionItemCheckBoxDescriptionStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/idenfyQuestionnaireViewCheckBoxQuestionItemCheckBoxDescriptionColor</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="idenfyQuestionnaireViewFileQuestionFilePickerPlaceHolderStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/idenfyQuestionnaireViewFileQuestionFilePickerPlaceHolderTextColor</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="idenfyQuestionnaireViewImageQuestionImagePickerPlaceHolderStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/idenfyQuestionnaireViewImageQuestionImagePickerPlaceHolderTextColor</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="idenfyQuestionnaireViewSelectMultiQuestionCheckBoxTextStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/idenfyQuestionnaireViewSelectMultiQuestionCheckBoxTextColor</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="idenfyQuestionnaireViewInputFieldErrorMessageTextStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/idenfyQuestionnaireViewInputFieldErrorMessageTextColor</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+</resources>

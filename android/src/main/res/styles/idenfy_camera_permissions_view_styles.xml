@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="idenfyCameraPermissionViewTitleStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/idenfyCameraPermissionViewTitleTextColor
+        </item>
+        <item name="android:textSize">
+            @dimen/idenfy_dimen_identification_success_results_view_information_title_text_size
+        </item>
+    </style>
+
+    <style name="idenfyCameraPermissionViewDescriptionStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">
+            @color/idenfyCameraPermissionViewDescriptionTextColor
+        </item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="idenfyCameraPermissionViewGuidanceDescriptionStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">
+            @color/idenfyCameraPermissionViewGuidanceDescriptionTextColor
+        </item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="idenfyCameraPermissionViewGoToSettingsButtonStyle" parent="android:Widget.Button">
+        <item name="android:textColor">
+            @color/idenfyDocumentConfirmationViewBeginIdentificationButtonTextColor
+        </item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+</resources>
