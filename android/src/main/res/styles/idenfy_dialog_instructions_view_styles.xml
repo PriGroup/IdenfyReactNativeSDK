@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="idenfyIdentificationResultsViewInstructionsAlertContinueButtonStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/idenfyIdentificationResultsViewInstructionsAlertContinueButtonTextColorV2
+        </item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="idenfyIdentificationResultsViewInstructionsAlertProgressBarStyle" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="colorAccent">@color/idenfyIdentificationResultsViewInstructionsAlertProgressBarProgressColorV2
+        </item>
+        <item name="android:textSize">12sp</item>
+    </style>
+</resources>

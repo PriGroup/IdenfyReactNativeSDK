@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="idenfyManualReviewingStatusApprovedCommonInformationTitleStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">
+            @color/idenfyManualReviewingStatusApprovedCommonInformationTitleTextColor
+        </item>
+        <item name="android:textSize">
+            @dimen/idenfy_dimen_country_selection_view_information_title_text_size
+        </item>
+    </style>
+
+    <style name="idenfyApprovedAfterManualReviewingIdentificationResultsViewDescriptionStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">
+            @color/idenfyManualReviewingStatusApprovedCommonInformationDescriptionTextColor
+        </item>
+        <item name="android:textSize">
+            15sp
+        </item>
+    </style>
+
+    <style name="idenfyManualReviewingStatusApprovedContinueButtonStyle" parent="android:Widget.Button">
+        <item name="android:textColor">
+            @color/idenfyManualReviewingStatusApprovedContinueButtonTextColor
+        </item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,46 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="IdenfyTheme" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/idenfyColorPrimary</item>
+        <item name="colorPrimaryDark">@color/idenfyColorPrimaryDark</item>
+        <item name="colorAccent">@color/idenfyColorAccent</item>
+    </style>
+
+    <style name="IdenfyThemeV2" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/idenfyMainColorV2</item>
+        <item name="colorPrimaryDark">@color/idenfySecondColorV2</item>
+        <item name="colorAccent">@color/idenfyGradientAccentV2</item>
+    </style>
+
+    <style name="IdenfyTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
+
+    <style name="progressBarBlue" parent="@style/Theme.MaterialComponents">
+        <item name="colorAccent">@color/idenfyResultsLoadingIconColor</item>
+        <item name="colorPrimary">@color/idenfyResultsLoadingIconColor</item>
+    </style>
+
+    <style name="IdenfyStyleDialog" parent="Theme.MaterialComponents.Light.Dialog">
+        <item name="android:windowMinWidthMajor">100%</item>
+        <item name="android:windowMinWidthMinor">100%</item>
+    </style>
+
+    <style name="IdenfyStyleAlertDialog" parent="Theme.MaterialComponents.Light.Dialog.Alert">
+        <item name="android:windowMinWidthMajor">100%</item>
+        <item name="android:windowMinWidthMinor">100%</item>
+    </style>
+
+    <style name="LoadingSpinner">
+        <item name="android:indeterminateOnly">true</item>
+        <item name="android:maxWidth">200dip</item>
+        <item name="android:maxHeight">200dip</item>
+    </style>
+
+    <style name="LoadingSpinner.Circle">
+        <item name="LoadingSpinner_Style">Circle</item>
+    </style>
+
+    <style name="LoadingSpinner.FadingCircle">
+        <item name="LoadingSpinner_Style">FadingCircle</item>
+    </style>
+
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="idenfyOnBoardingViewTitleStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/idenfyCameraStaticOnBoardingViewTitleColor</item>
+        <item name="android:textSize">
+            @dimen/idenfy_dimen_document_confirmation_view_information_title_text_size
+        </item>
+    </style>
+
+    <style name="idenfyOnBoardingViewDescriptionStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/idenfyCameraStaticOnBoardingViewDescriptionColor
+        </item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="idenfyOnBoardingViewInstructionsProgressBarStyle" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="colorAccent">@color/idenfyCameraDynamicOnBoardingViewProgressBarForegroundColor
+        </item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="idenfyCameraDynamicOnBoardingViewVideoDescriptionsCardTitleStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/idenfyCameraDynamicOnBoardingViewVideoDescriptionsCardTitleColor</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="idenfyCameraStaticOnBoardingViewVideoDescriptionsTitleStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/idenfyCameraStaticOnBoardingViewVideoDescriptionsTitleColor</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="idenfyOnBoardingViewContinueButtonStyle" parent="android:Widget.Button">
+        <item name="android:textColor">
+            @color/idenfyCameraStaticOnBoardingViewDisabledButtonTitleColor
+        </item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="idenfyCameraStaticOnBoardingViewVideoDescriptionsTextStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/idenfyCameraStaticOnBoardingViewVideoDescriptionsTextColor</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+</resources>
