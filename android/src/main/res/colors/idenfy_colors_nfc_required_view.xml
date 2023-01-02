@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="idenfyNFCRequiredViewBackgroundColor">
+        @color/idenfyBackgroundColorV2
+    </color>
+    <color name="idenfyNFCRequiredCommonInformationTitleTextColor">@color/idenfySecondColorV2
+    </color>
+    <color name="idenfyNFCRequiredCommonInformationDescriptionTextColor">@color/idenfySecondColorV2
+    </color>
+    <color name="idenfyNFCRequiredContinueButtonTextColor">
+        @color/idenfyWhite
+    </color>
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="idenfyProviderSelectionViewBackgroundColor">@color/idenfyBackgroundColorV2</color>
+    <color name="idenfyProviderSelectionViewTitleTextColor">@color/idenfySecondColorV2</color>
+    <color name="idenfyProviderSelectionViewDescriptionTextColor">@color/idenfySecondColorV2</color>
+    <color name="idenfyProviderSelectionViewProviderSearchBarBackgroundColor">@color/idenfyWhite
+    </color>
+    <color name="idenfyProviderSelectionViewProviderSearchBarHighlightedTextColor">
+        @color/idenfySecondColorV2
+    </color>
+    <color name="idenfyProviderSelectionViewProviderSearchBarTextColor">
+        @color/idenfySecondColor50percentV2
+    </color>
+    <color name="idenfyProviderSelectionViewProviderRecyclerViewBackgroundColor">@color/idenfyWhite
+    </color>
+    <color name="idenfyProviderSelectionViewProviderRecyclerViewBorderColor">
+        @color/idenfySecondColor6percentV2
+    </color>
+    <color name="idenfyProviderSelectionViewProviderRecyclerViewItemBackgroundColor">
+        @color/idenfyWhite
+    </color>
+    <color name="idenfyProviderSelectionViewProviderRecyclerViewItemBorderColor">
+        @color/idenfySecondColor6percentV2
+    </color>
+    <color name="idenfyProviderSelectionViewProviderRecyclerViewItemTextColor">
+        @color/idenfySecondColorV2
+    </color>
+    <color name="idenfyProviderSelectionViewProviderRecyclerViewItemHighlightedTextColor">
+        @color/idenfyWhite
+    </color>
+    <color name="idenfyProviderSelectionViewProviderRecyclerViewItemHighlightedBackgroundColor">
+        @color/idenfyMainColorV2
+    </color>
+    <color name="idenfyProviderViewSelectionProviderSearchBarBorderColor">
+        @color/idenfySecondColor6percentV2
+    </color>
+
+</resources>

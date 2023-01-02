@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="idenfyIdentificationResultsViewInstructionsAlertBackgroundColorV2">@color/idenfyBackgroundColorV2</color>
+    <color name="idenfyIdentificationResultsViewInstructionsAlertLoadingSpinnerColor">@color/idenfyMainColorV2</color>
+    <color name="idenfyIdentificationResultsViewInstructionsAlertTitleTextColorV2">@color/idenfySecondColorV2</color>
+    <color name="idenfyIdentificationResultsViewInstructionsAlertContinueButtonTextColorV2">@color/idenfyWhite</color>
+    <color name="idenfyIdentificationResultsViewInstructionsAlertProgressBarProgressColorV2">@color/idenfyMainColorV2</color>
+</resources>

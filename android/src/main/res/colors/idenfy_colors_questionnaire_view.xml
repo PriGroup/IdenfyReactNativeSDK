@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="idenfyQuestionnaireViewBackgroundColor">@color/idenfyBackgroundColorV2</color>
+    <color name="idenfyQuestionnaireViewTitleTextColor">@color/idenfySecondColorV2</color>
+    <color name="idenfyQuestionnaireViewDescriptionTextColor">@color/idenfySecondColorV2</color>
+    <color name="idenfyQuestionnaireViewSectionTitleTextColor">@color/idenfySecondColorV2</color>
+    <color name="idenfyQuestionnaireViewSectionDescriptionTextColor">@color/idenfySecondColorV2</color>
+    <color name="idenfyQuestionnaireViewContinueButtonDisabledBackgroundColor">@color/idenfySecondColor20percentV2</color>
+    <color name="idenfyQuestionnaireViewContinueButtonDisabledTextColor">@color/idenfySecondColor50percentV2</color>
+    <color name="idenfyQuestionnaireViewContinueButtonEnabledTextColor">@color/idenfyWhite</color>
+    <color name="idenfyQuestionnaireViewLoadingSpinnerTintColor">@color/idenfyWhite</color>
+
+    <color name="idenfyQuestionnaireViewQuestionItemTitleTextColor">@color/idenfySecondColorV2</color>
+    <color name="idenfyQuestionnaireViewQuestionItemDescriptionTextColor">@color/idenfySecondColorV2</color>
+
+    <color name="idenfyQuestionnaireViewTextQuestionItemEditTextTitleColor">@color/idenfySecondColorV2</color>
+    <color name="idenfyQuestionnaireViewTextQuestionItemEditTextHintColor">@color/idenfySecondColor20percentV2</color>
+    <color name="idenfyQuestionnaireViewTextQuestionItemEditTextHighlightedBorderColor">@color/idenfyMainColorV2</color>
+    <color name="idenfyQuestionnaireViewTextQuestionItemEditTextBackgroundColor">@color/idenfyWhite</color>
+    <color name="idenfyQuestionnaireViewTextQuestionItemEditTextBorderColor">@color/idenfySecondColor20percentV2</color>
+    <color name="idenfyQuestionnaireViewCheckBoxQuestionItemCheckBoxColor">@color/idenfyMainColorV2</color>
+    <color name="idenfyQuestionnaireViewCheckBoxQuestionItemCheckBoxDescriptionColor">@color/idenfySecondColorV2</color>
+    <color name="idenfyQuestionnaireViewCountryQuestionTrailingIconTintColor">@color/idenfySecondColorV2</color>
+    <color name="idenfyQuestionnaireViewDateQuestionTrailingIconTintColor">@color/idenfySecondColorV2</color>
+    <color name="idenfyQuestionnaireViewFileQuestionUploadIconTintColor">@color/idenfyMainColorV2</color>
+    <color name="idenfyQuestionnaireViewFileQuestionCancelIconTintColor">@color/idenfySecondColorV2</color>
+    <color name="idenfyQuestionnaireViewFileQuestionFilePickerPlaceHolderTextColor">@color/idenfySecondColorV2</color>
+    <color name="idenfyQuestionnaireViewImageQuestionUploadIconTintColor">@color/idenfyMainColorV2</color>
+    <color name="idenfyQuestionnaireViewImageQuestionCancelIconTintColor">@color/idenfySecondColorV2</color>
+    <color name="idenfyQuestionnaireViewImageQuestionImagePickerPlaceHolderTextColor">@color/idenfySecondColorV2</color>
+    <color name="idenfyQuestionnaireViewPasswordQuestionTrailingIconTintColor">@color/idenfySecondColorV2</color>
+    <color name="idenfyQuestionnaireViewRadioQuestionRadioButtonTintColor">@color/idenfyMainColorV2</color>
+    <color name="idenfyQuestionnaireViewRadioQuestionRadioButtonBackgroundColor">@color/idenfySecondColorV2</color>
+    <color name="idenfyQuestionnaireViewRadioQuestionRadioButtonTextColor">@color/idenfySecondColorV2</color>
+    <color name="idenfyQuestionnaireViewSelectMultiQuestionCheckBoxTintColor">@color/idenfyMainColorV2</color>
+    <color name="idenfyQuestionnaireViewSelectMultiQuestionCheckBoxTextColor">@color/idenfySecondColorV2</color>
+    <color name="idenfyQuestionnaireViewInputFieldErrorMessageTextColor">@color/idenfyErrorRedColorV2</color>
+</resources>

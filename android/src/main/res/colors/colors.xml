@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="idenfyColorPrimary">#36465D</color>
+    <color name="idenfyColorPrimaryDark">#2B384A</color>
+    <color name="idenfyColorAccent">#8bc7e0</color>
+    <color name="idenfyRepeatButtonColor">@color/idenfyColorPrimary</color>
+    <color name="idenfyNextButtonColor">@color/idenfyColorAccent</color>
+    <color name="idenfyMenuSelectionBarColor">#2B3442</color>
+    <color name="idenfyMenuSelectionTextColor">#ffffff</color>
+    <color name="idenfyDocumentsRecyclerViewColor">#ffffff</color>
+    <color name="idenfyDocumentBorderColor">@color/idenfyColorAccent</color>
+    <color name="idenfyFaceBorderColor">@color/idenfyColorAccent</color>
+    <color name="idenfyCameraFloatingActionButtonColor">@color/idenfyColorAccent</color>
+    <color name="idenfyCameraFloatingActionButtonBackgroundColor">#ffffff</color>
+    <color name="idenfyDocumentsArrowColor">@color/idenfyColorAccent</color>
+    <color name="idenfyInitialAgreementBackgroundColor">@color/idenfyWhite</color>
+    <color name="idenfyInitialAgreementTextColor">@color/idenfyColorPrimary</color>
+    <color name="idenfyInitialAgreementInformationTitleColor">@color/idenfyColorPrimary</color>
+    <color name="idenfyInitialAgreementButtonColor">@color/idenfyColorAccent</color>
+    <color name="idenfyInitialAgreementSpinnerSolidColor">@color/idenfyWhite</color>
+    <color name="idenfyInitialAgreementSpinnerBorderColor">@color/idenfyColorPrimary</color>
+    <color name="idenfyInitialAgreementSpinnerArrowColor">@color/idenfyColorPrimary</color>
+    <color name="idenfyInitialAgreementCountryTextColor">@color/idenfyColorPrimary</color>
+    <color name="idenfyInitialAgreementButtonTextColor">@color/idenfyBlack</color>
+    <color name="idenfyInitialAgreementButtonColorUnFocused">@color/colorAccentIdenfyDarkgrey
+    </color>
+    <color name="idenfyCheckBoxColor">@color/idenfyColorAccent</color>
+    <color name="idenfyCountriesItemTextColor">@color/idenfyColorPrimary</color>
+    <color name="idenfyResultsLoadingTextView">@color/idenfyColorAccent</color>
+    <color name="idenfyResultsProgressBarColor">#ffffff</color>
+    <color name="idenfyResultsDocumentsTextView">@color/idenfyColorPrimary</color>
+    <color name="idenfyResultsLoadingIconColor">@color/idenfyColorAccent</color>
+    <color name="idenfyResultsSuccessIconSolidColor">#4FD250</color>
+    <color name="idenfyResultsSuccessIconShapeColor">#ffffff</color>
+    <color name="idenfyResultsErrorIconSolidColor">#E44742</color>
+    <color name="idenfyResultsErrorIconShapeColor">#ffffff</color>
+    <color name="idenfyResultsLoadingLayoutColor">#ffffff</color>
+    <color name="idenfyResultsMessageTextColor">@color/idenfyColorPrimary</color>
+    <color name="colorAccentIdenfyDarkgrey">#b3b5bf</color>
+    <!--menuCellBackgroundColorIdenfy is deprecated-->
+    <color name="menuCellBackgroundColorIdenfy">#7defeff4</color>
+    <color name="idenfyWhite">#ffffff</color>
+    <color name="idenfyToolbarTitleColor">#ffffff</color>
+    <color name="idenfyDocumentViewTextColor">#ffffff</color>
+    <color name="idenfyFaceCameraSessionInformationTextViewColor">#ffffff</color>
+    <color name="idenfyFaceResultsInformationTextViewColor">#000000</color>
+    <color name="idenfyDocumentsCameraSessionInformationTextViewColor">#000000</color>
+    <color name="idenfyDocumentsResultsInformationTextViewColor">#ffffff</color>
+    <color name="idenfyDocumentsCameraSessionBackArrowColor">#000000</color>
+    <color name="idenfyDocumentsCameraSessionBackTextViewColor">#000000</color>
+    <color name="idenfyFaceSessionCameraBackArrowColor">#ffffff</color>
+    <color name="idenfyFaceResultsCameraBackArrowColor">#000000</color>
+    <color name="idenfyDocumentsResultsBackTextViewColor">#ffffff</color>
+    <color name="idenfyDocumentsResultsCameraBackArrowColor">#ffffff</color>
+    <color name="idenfyFaceResultsBackTextViewColor">#000000</color>
+    <color name="idenfyFaceSessionBackTextViewColor">#ffffff</color>
+    //splash screen
+    <color name="idenfySplashScreenBackgroundColor">@color/idenfyWhite</color>
+    //background of cards in initial view
+    <color name="idenfyInitialAgreementInformationCardsBackgroundColor">@color/idenfyWhite</color>
+
+    <color name="idenfy_document_cropper_background">@android:color/white</color>
+    <color name="idenfy_document_crop_color">@android:color/black</color>
+</resources>

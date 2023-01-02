@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="idenfyFacePhotoResultViewBackgroundColor">@color/idenfyBackgroundColorV2</color>
+    <color name="idenfyFacePhotoResultViewTitleTextColor">@color/idenfySecondColorV2</color>
+    <color name="idenfyFacePhotoResultViewDescriptionTextColor">@color/idenfySecondColorV2</color>
+    <color name="idenfyFacePhotoResultViewRetakePhotoButtonTextColor">@color/idenfyMainColorV2
+    </color>
+    <color name="idenfyFacePhotoResultViewNextButtonTextColor">@color/idenfyWhite</color>
+    <color name="idenfyFacePhotoResultViewPhotoLoadingSpinnerColor">
+        @color/idenfyMainColor50percentV2
+    </color>
+    <color name="idenfyFacePhotoResultViewPhotoBorderColor">@color/idenfyMainColorV2</color>
+    <color name="idenfyFacePhotoResultViewCardTitleColor">@color/idenfyMainColorV2</color>
+
+</resources>

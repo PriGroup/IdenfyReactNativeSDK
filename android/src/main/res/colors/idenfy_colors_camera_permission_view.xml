@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="idenfyCameraPermissionViewBackgroundColor">
+        @color/idenfyBackgroundColorV2
+    </color>
+    <color name="idenfyCameraPermissionViewTitleTextColor">@color/idenfySecondColorV2
+    </color>
+    <color name="idenfyCameraPermissionViewDescriptionTextColor">
+        @color/idenfySecondColorV2
+    </color>
+    <color name="idenfyCameraPermissionViewGuidanceDescriptionTextColor">
+        @color/idenfySecondColorV2
+    </color>
+
+</resources>

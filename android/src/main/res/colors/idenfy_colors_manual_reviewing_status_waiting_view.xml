@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="idenfyManualReviewingStatusWaitingViewBackgroundColor">@color/idenfyBackgroundColorV2</color>
+    <color name="idenfyManualReviewingStatusWaitingCommonInformationTitleTextColor">@color/idenfySecondColorV2</color>
+    <color name="idenfyManualReviewingStatusWaitingCommonInformationDescriptionTextColor">@color/idenfySecondColor50percentV2</color>
+    <color name="idenfyManualReviewingStatusWaitingCommonReviewBoxFinishedBackgroundColor">@color/idenfyMainColorV2</color>
+    <color name="idenfyManualReviewingStatusWaitingCommonReviewBoxFinishedTitleColor">@color/idenfyWhite</color>
+    <color name="idenfyManualReviewingStatusWaitingCommonReviewBoxFinishedTickImageTintColor">@color/idenfyWhite</color>
+    <color name="idenfyManualReviewingStatusWaitingCommonReviewBoxWaitingBackgroundColor">@color/idenfyWhite</color>
+    <color name="idenfyManualReviewingStatusWaitingCommonReviewBoxWaitingTitleColor">@color/idenfySecondColorV2</color>
+    <color name="idenfyManualReviewingStatusWaitingCommonReviewBoxWaitingSpinnerColor">@color/idenfySecondColor20percentV2</color>
+    <color name="idenfyManualReviewingStatusWaitingCommonWaitingDurationTitleColor">@color/idenfySecondColor50percentV2</color>
+    <color name="idenfyManualReviewingStatusWaitingCommonWaitingTimerBoxBackgroundColor">@color/idenfySecondColor20percentV2</color>
+    <color name="idenfyManualReviewingStatusWaitingCommonWaitingTimerImageTintColor">@color/idenfySecondColor50percentV2</color>
+    <color name="idenfyManualReviewingStatusWaitingCommonWaitingTimerTitleColor">@color/idenfySecondColor50percentV2</color>
+    <color name="idenfyManualReviewingStatusWaitingBackToAccountButtonBackgroundColor">@color/idenfyMainColorV2</color>
+    <color name="idenfyManualReviewingStatusWaitingBackToAccountButtonTextColor">@color/idenfyWhite</color>
+</resources>

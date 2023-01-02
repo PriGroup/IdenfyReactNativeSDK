@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="idenfyManualReviewingStatusFailedViewBackgroundColor">
+        @color/idenfyBackgroundColorV2
+    </color>
+    <color name="idenfyManualReviewingStatusFailedCommonInformationTitleTextColor">@color/idenfySecondColorV2
+    </color>
+    <color name="idenfyManualReviewingStatusFailedCommonInformationDescriptionTextColor">@color/idenfySecondColor50percentV2
+    </color>
+    <color name="idenfyManualReviewingStatusFailedCommonInformationDescriptionSupportEmailTextColor">@color/idenfyMainColorV2
+    </color>
+    <color name="idenfyManualReviewingStatusFailedContinueButtonTextColor">
+        @color/idenfyWhite
+    </color>
+
+</resources>

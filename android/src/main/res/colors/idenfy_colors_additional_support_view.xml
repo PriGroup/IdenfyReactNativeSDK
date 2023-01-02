@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="idenfyAdditionalSupportViewBackgroundColor">
+        @color/idenfyBackgroundColorV2
+    </color>
+    <color name="idenfyAdditionalSupportCommonInformationTitleTextColor">@color/idenfySecondColorV2
+    </color>
+    <color name="idenfyAdditionalSupportCommonInformationDescriptionTextColor">@color/idenfySecondColor50percentV2
+    </color>
+    <color name="idenfyAdditionalSupportContinueButtonTextColor">
+        @color/idenfyWhite
+    </color>
+
+</resources>

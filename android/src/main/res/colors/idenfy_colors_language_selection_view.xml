@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="idenfyLanguageSelectionViewBackgroundColor">
+        @color/idenfyBackgroundColorV2
+    </color>
+    <color name="idenfyLanguageSelectionViewTitleTextColor">
+        @color/idenfySecondColorV2
+    </color>
+    <color name="idenfyLanguageSelectionViewLanguageRecyclerViewBackgroundColor">
+        @color/idenfyWhite
+    </color>
+    <color name="idenfyLanguageSelectionViewLanguageRecyclerViewBorderColor">
+        @color/idenfySecondColor6percentV2
+    </color>
+    <color name="idenfyLanguageSelectionViewLanguageRecyclerViewItemBackgroundColor">
+        @color/idenfyWhite
+    </color>
+    <color name="idenfyLanguageSelectionViewLanguageRecyclerViewItemBorderColor">
+        @color/idenfySecondColor6percentV2
+    </color>
+    <color name="idenfyLanguageSelectionViewLanguageRecyclerViewItemTextColor">
+        @color/idenfySecondColorV2
+    </color>
+    <color name="idenfyLanguageSelectionViewLanguageRecyclerViewItemHighlightedTextColor">
+        @color/idenfyWhite
+    </color>
+    <color name="idenfyLanguageSelectionViewLanguageRecyclerViewItemHighlightedBackgroundColor">
+        @color/idenfyMainColorV2
+    </color>
+
+</resources>

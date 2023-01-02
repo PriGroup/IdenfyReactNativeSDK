@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Idenfy Default AppBar Colors -->
+
+    <color name="idenfyDefaultAppBarBackgroundColor">@color/idenfyWhite</color>
+
+    <!-- Idenfy Camera Preview Session AppBar Colors -->
+
+    <color name="idenfyCameraPreviewSessionAppBarBackgroundColor">@android:color/transparent</color>
+    <color name="idenfyCameraPreviewSessionAppBarBackButtonTintColor">@color/idenfyWhite</color>
+    <color name="idenfyCameraPreviewSessionAppBarCameraFlashButtonTintColor">@color/idenfyWhite</color>
+    <color name="idenfyCameraPreviewSessionAppBarBackButtonTextColor">@color/idenfyBlack</color>
+    <color name="idenfyCameraPreviewSessionAppBarFaceNotDetectedAlertTintColor">@color/idenfyGrayColorV2</color>
+
+    <!-- Idenfy No Back Button AppBar Colors -->
+
+    <color name="idenfyNoBackButtonAppBarBackgroundColor">@color/idenfyWhite</color>
+
+    <!-- Idenfy Photo Result AppBar Colors -->
+
+    <color name="idenfyPhotoResultAppBarBackgroundColor">@color/idenfyWhite</color>
+    <color name="idenfyPhotoResultAppBarBackButtonTextColor">@color/idenfyBlack</color>
+
+</resources>

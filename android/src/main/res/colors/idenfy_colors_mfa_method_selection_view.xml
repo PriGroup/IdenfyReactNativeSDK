@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="idenfyMFAMethodSelectionViewBackgroundColor">@color/idenfyBackgroundColorV2</color>
+    <color name="idenfyMFAMethodSelectionViewTitleTextColor">@color/idenfySecondColorV2</color>
+    <color name="idenfyMFAMethodSelectionViewDescriptionTextColor">@color/idenfySecondColorV2</color>
+    <color name="idenfyMFAMethodSelectionViewTopHintTitleColor">@color/idenfyMainColorV2</color>
+    <color name="idenfyMFAMethodSelectionViewContinueButtonTextColor">@color/idenfyWhite</color>
+
+</resources>

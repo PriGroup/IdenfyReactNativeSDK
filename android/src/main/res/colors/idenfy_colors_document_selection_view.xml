@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="idenfyDocumentSelectionViewBackgroundColor">@color/idenfyBackgroundColorV2</color>
+    <color name="idenfyDocumentSelectionViewTitleTextColor">@color/idenfySecondColorV2</color>
+    <color name="idenfyDocumentSelectionViewDescriptionTextColor">@color/idenfySecondColorV2</color>
+    <color name="idenfyDocumentSelectionViewRecyclerViewBorderColor">
+        @color/idenfySecondColor6percentV2
+    </color>
+    <color name="idenfyDocumentSelectionViewRecyclerViewBackgroundColor">@color/idenfyWhite</color>
+    <color name="idenfyDocumentSelectionViewRecyclerViewItemBackgroundColor">@color/idenfyWhite
+    </color>
+    <color name="idenfyDocumentSelectionViewRecyclerViewItemBorderColor">
+        @color/idenfySecondColor6percentV2
+    </color>
+    <color name="idenfyDocumentSelectionViewRecyclerViewItemTitleTextColor">
+        @color/idenfySecondColorV2
+    </color>
+    <color name="idenfyDocumentSelectionViewRecyclerViewItemHighlightedTextColor">
+        @color/idenfyWhite
+    </color>
+    <color name="idenfyDocumentSelectionViewRecyclerViewItemHighlightedBackgroundColor">
+        @color/idenfyMainColorV2
+    </color>
+    <color name="idenfyDocumentSelectionViewContinueButtonDisabledBackgroundColor">
+        @color/idenfySecondColor20percentV2
+    </color>
+    <color name="idenfyDocumentSelectionViewContinueButtonDisabledTextColor">
+        @color/idenfySecondColor50percentV2
+    </color>
+    <color name="idenfyDocumentSelectionViewContinueButtonEnabledTextColor">
+        @color/idenfyWhite
+    </color>
+    <color name="idenfyDocumentSelectionViewLoadingSpinnerTintColor">
+        @color/idenfyWhite
+    </color>
+</resources>

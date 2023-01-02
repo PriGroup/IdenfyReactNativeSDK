@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="idenfyDocumentConfirmationViewBackgroundColor">@color/idenfyBackgroundColorV2
+    </color>
+    <color name="idenfyDocumentConfirmationViewTitleTextColor">@color/idenfySecondColorV2</color>
+    <color name="idenfyDocumentConfirmationViewDescriptionTextColor">@color/idenfySecondColorV2
+    </color>
+    <color name="idenfyDocumentConfirmationViewDescriptionHighlightedTextColor">
+        @color/idenfyMainColorV2
+    </color>
+    <color name="idenfyDocumentConfirmationViewBeginIdentificationButtonTextColor">
+        @color/idenfyWhite
+    </color>
+    <color name="idenfyDocumentConfirmationViewContentScrollBarThumbColor">
+        @color/idenfyMainColor50percentV2
+    </color>
+    <color name="idenfyDocumentConfirmationViewDocumentStepTitleTextColor">
+        @color/idenfySecondColorV2
+    </color>
+    <color name="idenfyDocumentConfirmationViewDocumentStepTitleHighlightedTextColor">
+        @color/idenfyMainColorV2
+    </color>
+    <color name="idenfyDocumentConfirmationViewUploadDocumentPhotoTitleTextColor">
+        @color/idenfySecondColorV2
+    </color>
+    <color name="idenfyDocumentConfirmationViewDocumentStepItemNumberTextColor">@color/idenfyWhite
+    </color>
+    <color name="idenfyDocumentConfirmationViewDocumentStepItemTitleTextColor">
+        @color/idenfySecondColorV2
+    </color>
+    <color name="idenfyDocumentConfirmationViewContentMaskForegroundColor">
+        @color/idenfyBackgroundColorV2
+    </color>
+
+</resources>

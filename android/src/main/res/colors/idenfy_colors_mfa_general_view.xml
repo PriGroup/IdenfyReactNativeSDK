@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="idenfyMFAGeneralViewBackgroundColor">@color/idenfyBackgroundColorV2</color>
+    <color name="idenfyMFAGeneralViewTitleTextColor">@color/idenfySecondColorV2</color>
+    <color name="idenfyMFAGeneralViewDescriptionTextColor">@color/idenfySecondColorV2</color>
+    <color name="idenfyMFAGeneralViewEditTextBackgroundColor">@color/idenfyWhite</color>
+    <color name="idenfyMFAGeneralViewEditTextTitleColor">@color/idenfySecondColorV2</color>
+    <color name="idenfyMFAGeneralViewEditTextBorderColor">@color/idenfySecondColor20percentV2</color>
+    <color name="idenfyMFAGeneralViewEditTextHighlightedBorderColor">@color/idenfyMainColorV2</color>
+    <color name="idenfyMFAGeneralViewEditTextHintTitleColor">@color/idenfySecondColor20percentV2</color>
+    <color name="idenfyMFAGeneralViewEditTextTopHintTitleColor">@color/idenfyMainColorV2</color>
+    <color name="idenfyMFAGeneralViewContinueButtonTextColor">@color/idenfyWhite</color>
+
+</resources>

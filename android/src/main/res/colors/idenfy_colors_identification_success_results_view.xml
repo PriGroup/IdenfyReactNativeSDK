@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="idenfyIdentificationSuccessResultsViewBackgroundColor">
+        @color/idenfyBackgroundColorV2
+    </color>
+    <color name="idenfyIdentificationSuccessResultsViewTitleTextColor">@color/idenfySecondColorV2
+    </color>
+    <color name="idenfyIdentificationSuccessResultsViewDescriptionTextColor">
+        @color/idenfySecondColorV2
+    </color>
+    <color name="idenfyIdentificationSuccessResultsViewIdentifiedTextColor">
+        @color/idenfyIdentificationResultsViewSuccessStepTextColor
+    </color>
+
+</resources>

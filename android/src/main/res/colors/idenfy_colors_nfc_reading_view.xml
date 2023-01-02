@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="idenfyNFCReadingViewBackgroundColor">
+        @color/idenfyBackgroundColorV2
+    </color>
+    <color name="idenfyNFCReadingCommonInformationTitleTextColor">@color/idenfySecondColorV2
+    </color>
+    <color name="idenfyNFCReadingCommonInformationDescriptionTextColor">@color/idenfyMainColorV2
+    </color>
+
+</resources>

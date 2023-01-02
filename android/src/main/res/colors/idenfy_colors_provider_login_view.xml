@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="idenfyProviderLoginViewBackgroundColor">@color/idenfyBackgroundColorV2</color>
+    <color name="idenfyProviderLoginViewTitleTextColor">@color/idenfySecondColorV2</color>
+    <color name="idenfyProviderLoginViewDescriptionTextColor">@color/idenfySecondColorV2</color>
+    <color name="idenfyProviderLoginViewUsernameAndPasswordEditTextBackgroundColor">@color/idenfyWhite</color>
+    <color name="idenfyProviderLoginViewUsernameAndPasswordEditTextTitleColor">@color/idenfySecondColorV2</color>
+    <color name="idenfyProviderLoginViewUsernameAndPasswordEditTextBorderColor">@color/idenfySecondColor20percentV2</color>
+    <color name="idenfyProviderLoginViewUsernameAndPasswordEditTextHighlightedBorderColor">@color/idenfyMainColorV2</color>
+    <color name="idenfyProviderLoginViewUsernameAndPasswordEditTextHintTitleColor">@color/idenfySecondColor20percentV2</color>
+    <color name="idenfyProviderLoginViewUsernameAndPasswordEditTextTopHintTitleColor">@color/idenfyMainColorV2</color>
+    <color name="idenfyProviderLoginViewContinueButtonTextColor">@color/idenfyWhite</color>
+
+</resources>

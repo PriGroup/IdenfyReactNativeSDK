@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="idenfyDocumentCameraPreviewSessionBackgroundColor">@color/idenfyBlack</color>
+    <color name="idenfyDocumentCameraPreviewSessionBottomActionButtonsViewBackgroundColor">
+        @color/idenfyHelpSheetOverlay
+    </color>
+    <color name="idenfyDocumentCameraPreviewSessionTakePhotoButtonUnFocusedTintColor">
+        @color/idenfyTakePhotoButtonIconUnFocused
+    </color>
+    <color name="idenfyDocumentCameraPreviewSessionTakePhotoButtonFocusedTintColor">
+        @color/idenfyWhite
+    </color>
+    <color name="idenfyDocumentCameraPreviewSessionTakePhotoButtonUnFocusedBackgroundColor">
+        @color/idenfyWhite
+    </color>
+    <color name="idenfyDocumentCameraPreviewSessionTakePhotoButtonFocusedBackgroundColor">
+        @color/idenfyMainColorV2
+    </color>
+
+    <!-- Document Camera Preview Session Top Sheet Colors -->
+
+    <color name="idenfyDocumentCameraPreviewSessionExpandButtonTintColor">@color/idenfyWhite</color>
+    <color name="idenfyDocumentCameraPreviewSessionCurrentInstructionContentTextColor">
+        @color/idenfyWhite
+    </color>
+    <color name="idenfyDocumentCameraPreviewTitleTextColor">@color/idenfyWhite</color>
+    <color name="idenfyDocumentCameraPreviewDescriptionTextColor">@color/idenfyWhite</color>
+
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="idenfyIdentificationResultsViewBackgroundColor">@color/idenfyBackgroundColorV2
+    </color>
+    <color name="idenfyIdentificationResultsViewTitleTextColor">@color/idenfySecondColorV2</color>
+    <color name="idenfyIdentificationResultsViewDescriptionTextColor">@color/idenfySecondColorV2
+    </color>
+    <color name="idenfyIdentificationResultsViewDocumentStepTitleTextColor">
+        @color/idenfySecondColorV2
+    </color>
+    <color name="idenfyIdentificationResultsViewDocumentStepLoadingStepDividerLoadingColor">
+        @color/idenfyMainColorV2
+    </color>
+    <color name="idenfyIdentificationResultsViewDocumentStepLoadingSpinnerAccentColor">
+        @color/idenfyMainColorV2
+    </color>
+    <color name="idenfyIdentificationResultsViewDocumentStepLoadingStepDividerSuccessColor">
+        @color/idenfyMainColorV2
+    </color>
+    <color name="idenfyIdentificationResultsViewDocumentStepLoadingStepDividerErrorColor">
+        @color/idenfyStepErrorColorV2
+    </color>
+    <color name="idenfyIdentificationResultsViewDocumentStepScrollBarThumbColor">
+        @color/idenfyMainColor50percentV2
+    </color>
+    <color name="idenfyIdentificationResultsViewRetakeButtonTextColor">@color/idenfyWhite</color>
+    <color name="idenfyIdentificationResultsViewContentMaskForegroundColor">
+        @color/idenfyBackgroundColorV2
+    </color>
+    <color name="idenfyIdentificationResultsViewSuccessStepTextColor">
+        @color/idenfyStepSuccessColorV2
+    </color>
+    <color name="idenfyIdentificationResultsViewErrorStepTextColorV2">
+        @color/idenfyStepErrorColorV2
+    </color>
+    <color name="idenfyIdentificationResultsViewDocNotFoundAlertBackgroundColorV2">
+        @color/idenfyBackgroundColorV2
+    </color>
+    <color name="idenfyIdentificationResultsViewDocNotFoundAlertTitleTextColorV2">
+        @color/idenfySecondColorV2
+    </color>
+    <color name="idenfyIdentificationResultsViewDocNotFoundAlertDescriptionTextColorV2">
+        @color/idenfySecondColorV2
+    </color>
+    <color name="idenfyIdentificationResultsViewDocNotFoundAlertDescriptionDocumentHighlightColorV2">
+        @color/idenfyMainColorV2
+    </color>
+    <color name="idenfyIdentificationResultsViewDocNotFoundAlertContinueButtonTextColorV2">
+        @color/idenfyWhite
+    </color>
+    <color name="idenfyIdentificationResultsViewMrzNotFoundAlertBackgroundColorV2">
+        @color/idenfyBackgroundColorV2
+    </color>
+    <color name="idenfyIdentificationResultsViewMrzNotFoundAlertTitleTextColorV2">
+        @color/idenfySecondColorV2
+    </color>
+    <color name="idenfyIdentificationResultsViewMrzNotFoundAlertDescriptionTextColorV2">
+        @color/idenfySecondColorV2
+    </color>
+    <color name="idenfyIdentificationResultsViewMrzNotFoundAlertContinueButtonTextColorV2">
+        @color/idenfyWhite
+    </color>
+    <color name="idenfyIdentificationResultsViewMrzNotFoundAlertBackButtonTextColorV2">
+        @color/idenfyMainColorV2
+    </color>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="idenfyUploadPhotoViewBackgroundColor">@color/idenfyBackgroundColorV2</color>
+    <color name="idenfyUploadPhotoViewTitleTextColor">@color/idenfySecondColorV2</color>
+    <color name="idenfyUploadPhotoViewDescriptionTextColor">@color/idenfySecondColorV2</color>
+    <color name="idenfyUploadPhotoViewCroppingBorderColor">@color/idenfyMainColorV2</color>
+    <color name="idenfyUploadPhotoViewCroppingBackgroundColor">@color/idenfySecondColorV2</color>
+    <color name="idenfyUploadPhotoViewCroppingPhotoLoadingSpinnerColor">@color/idenfyMainColorV2
+    </color>
+    <color name="idenfyUploadPhotoViewChooseAnotherPhotoButtonTextColor">@color/idenfyMainColorV2
+    </color>
+    <color name="idenfyUploadPhotoViewContinuePhotoButtonTextColor">@color/idenfyWhite</color>
+
+</resources>

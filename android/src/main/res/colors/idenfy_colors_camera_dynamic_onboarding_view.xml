@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="idenfyCameraOnBoardingViewBackgroundColor">@color/idenfyBackgroundColorV2</color>
+    <color name="idenfyCameraOnBoardingViewLoadingSpinnerColor">@color/idenfyMainColor50percentV2</color>
+    <color name="idenfyCameraDynamicOnBoardingViewTitleColor">@color/idenfySecondColorV2</color>
+    <color name="idenfyCameraDynamicOnBoardingViewDescriptionColor">@color/idenfySecondColorV2</color>
+    <color name="idenfyCameraDynamicOnBoardingViewProgressBarBackgroundColor">@color/idenfySecondColor20percentV2</color>
+    <color name="idenfyCameraDynamicOnBoardingViewProgressBarForegroundColor">@color/idenfyMainColorV2</color>
+    <color name="idenfyCameraDynamicOnBoardingViewVideoDescriptionsCardBackgroundColor">@color/idenfyPhotoResultDetailsCardBackgroundColorV2</color>
+    <color name="idenfyCameraDynamicOnBoardingViewVideoDescriptionsCardQuestionImageTintColor">@color/idenfyMainColorV2</color>
+    <color name="idenfyCameraDynamicOnBoardingViewVideoDescriptionsCardTitleColor">@color/idenfyMainColorV2</color>
+    <color name="idenfyCameraDynamicOnBoardingViewEnabledButtonTitleColor">@color/idenfyWhite</color>
+    <color name="idenfyCameraDynamicOnBoardingViewDisabledButtonBackgroundColor">@color/idenfySecondColor20percentV2</color>
+    <color name="idenfyCameraDynamicOnBoardingViewDisabledButtonTitleColor">@color/idenfySecondColor50percentV2</color>
+    <color name="idenfyCameraDynamicOnBoardingViewLoadingSpinnerColor">@color/idenfyMainColorV2</color>
+</resources>

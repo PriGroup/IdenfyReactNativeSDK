@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="idenfyMFACaptchaMethodViewBackgroundColor">@color/idenfyBackgroundColorV2</color>
+    <color name="idenfyMFACaptchaMethodViewTitleTextColor">@color/idenfySecondColorV2</color>
+    <color name="idenfyMFACaptchaMethodViewDescriptionTextColor">@color/idenfySecondColorV2</color>
+    <color name="idenfyMFACaptchaMethodViewCaptchaEditTextBackgroundColor">@color/idenfyWhite</color>
+    <color name="idenfyMFACaptchaMethodViewCaptchaEditTextTitleColor">@color/idenfySecondColorV2</color>
+    <color name="idenfyMFACaptchaMethodViewCaptchaEditTextBorderColor">@color/idenfySecondColor20percentV2</color>
+    <color name="idenfyMFACaptchaMethodViewCaptchaEditTextHighlightedBorderColor">@color/idenfyMainColorV2</color>
+    <color name="idenfyMFACaptchaMethodViewCaptchaEditTextHintTitleColor">@color/idenfySecondColor20percentV2</color>
+    <color name="idenfyMFACaptchaMethodViewCaptchaEditTextTopHintTitleColor">@color/idenfyMainColorV2</color>
+    <color name="idenfyMFACaptchaMethodViewContinueButtonTextColor">@color/idenfyWhite</color>
+
+</resources>

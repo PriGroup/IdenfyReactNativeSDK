@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="idenfyNFCReadingTimeOutViewBackgroundColor">
+        @color/idenfyBackgroundColorV2
+    </color>
+    <color name="idenfyNFCReadingTimeOutCommonInformationTitleTextColor">@color/idenfySecondColorV2
+    </color>
+    <color name="idenfyNFCReadingTimeOutCommonInformationDescriptionTextColor">@color/idenfySecondColorV2
+    </color>
+    <color name="idenfyNFCReadingTimeOutContinueButtonTextColor">
+        @color/idenfyWhite
+    </color>
+
+</resources>

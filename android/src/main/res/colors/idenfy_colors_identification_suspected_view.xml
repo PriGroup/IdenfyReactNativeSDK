@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="idenfyIdentificationSuspectedResultsViewTitleColor">@color/idenfySecondColorV2</color>
+    <color name="idenfyIdentificationSuspectedResultsViewDescriptionColor">@color/idenfySecondColor50percentV2</color>
+    <color name="idenfyIdentificationSuspectedResultsViewDescriptionEmailColor">@color/idenfyMainColorV2</color>
+    <color name="idenfyIdentificationSuspectedResultsViewContinueButtonBackgroundColor">@color/idenfyMainColorV2</color>
+    <color name="idenfyIdentificationSuspectedResultsViewContinueButtonTitleColor">@color/idenfyWhite</color>
+</resources>

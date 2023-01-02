@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="idenfyManualReviewingStatusApprovedViewBackgroundColor">
+        @color/idenfyBackgroundColorV2
+    </color>
+    <color name="idenfyManualReviewingStatusApprovedCommonInformationTitleTextColor">@color/idenfySecondColorV2
+    </color>
+    <color name="idenfyManualReviewingStatusApprovedCommonInformationDescriptionTextColor">@color/idenfyMainColorV2
+    </color>
+    <color name="idenfyManualReviewingStatusApprovedContinueButtonTextColor">
+        @color/idenfyWhite
+    </color>
+
+</resources>

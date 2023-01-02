@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="idenfyCustomAlertDialogPositiveButtonColor">@color/idenfyMainColorV2</color>
+    <color name="idenfyCustomAlertDialogNegativeButtonColor">@color/idenfySecondColorV2</color>
+
+</resources>

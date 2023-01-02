@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="idenfyDocumentPhotoResultViewBackgroundColor">@color/idenfyBackgroundColorV2
+    </color>
+    <color name="idenfyDocumentPhotoResultViewTitleTextColor">@color/idenfySecondColorV2</color>
+    <color name="idenfyDocumentPhotoResultViewDescriptionTextColor">@color/idenfySecondColorV2
+    </color>
+    <color name="idenfyDocumentPhotoResultViewRetakePhotoButtonTextColor">@color/idenfyMainColorV2
+    </color>
+    <color name="idenfyDocumentPhotoResultViewNextButtonTextColor">@color/idenfyWhite</color>
+    <color name="idenfyDocumentPhotoResultViewPhotoLoadingSpinnerColor">
+        @color/idenfyMainColor50percentV2
+    </color>
+    <color name="idenfyDocumentPhotoResultViewPhotoBorderColor">@color/idenfyMainColorV2</color>
+    <color name="idenfyDocumentPhotoResultViewCardTitleColor">@color/idenfyMainColorV2</color>
+
+    <color name="idenfyDocumentPhotoResultViewAutoCaptureFailureCardImageColor">@color/idenfyErrorRedColorV2</color>
+    <color name="idenfyDocumentPhotoResultViewAutoCaptureFailureCardTitleColor">@color/idenfyErrorRedColorV2</color>
+    <color name="idenfyDocumentPhotoResultViewAutoCaptureFailureCardBackgroundColor">@color/idenfyErrorLightRedColorV2</color>
+</resources>

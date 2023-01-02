@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="idenfyPrivacyPolicyViewBackgroundColor">@color/idenfyBackgroundColorV2</color>
+    <color name="idenfyPrivacyPolicyCommonInformationTitleTextColor">@color/idenfySecondColorV2</color>
+
+    <color name="idenfyPrivacyPolicyDisagreeButtonTextColor">@color/idenfyMainColorV2</color>
+    <color name="idenfyPrivacyPolicyContinueButtonTextColor">@color/idenfyWhite</color>
+    <color name="idenfyPrivacyPolicyViewPrivacyPolicyLoadingSpinnerColor">@color/idenfyMainColor50percentV2</color>
+
+    <!--- Dialog colors -->
+    <color name="idenfyPrivacyPolicyDisagreeDialogViewBackgroundColor">@color/idenfyBackgroundColorV2</color>
+    <color name="idenfyPrivacyPolicyDisagreeDialogViewDescriptionTextColor">@color/idenfySecondColorV2</color>
+    <color name="idenfyPrivacyPolicyDisagreeDialogAgreeButtonTextColor">@color/idenfyWhite</color>
+    <color name="idenfyPrivacyPolicyDisagreeDialogViewCancelButtonTextColor">@color/idenfyMainColorV2</color>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="idenfyFaceCameraPreviewSessionBackgroundColor">@color/idenfyBlack</color>
+    <color name="idenfyFaceCameraPreviewSessionBottomActionButtonsViewBackgroundColor">
+        @color/idenfyHelpSheetOverlay
+    </color>
+    <color name="idenfyFaceCameraPreviewSessionTakePhotoButtonUnFocusedTintColor">
+        @color/idenfyTakePhotoButtonIconUnFocused
+    </color>
+    <color name="idenfyFaceCameraPreviewSessionTakePhotoButtonFocusedTintColor">@color/idenfyWhite
+    </color>
+    <color name="idenfyFaceCameraPreviewSessionTakePhotoButtonUnFocusedBackgroundColor">
+        @color/idenfyWhite
+    </color>
+    <color name="idenfyFaceCameraPreviewSessionTakePhotoButtonFocusedBackgroundColor">
+        @color/idenfyMainColorV2
+    </color>
+    <color name="idenfyFaceCameraPreviewSessionFaceOvalColor">@color/idenfyWhite</color>
+    <color name="idenfyFaceCameraPreviewSessionFaceOvalNotDetectedColor">@color/idenfyGrayColorV2</color>
+    <color name="idenfyFaceCameraPreviewSessionFaceDetectedColor">@color/idenfyGreenColorV2</color>
+
+    <!-- Face Camera Preview Session Top Sheet Colors -->
+
+    <color name="idenfyFaceCameraPreviewSessionExpandButtonTintColor">@color/idenfyWhite</color>
+    <color name="idenfyFaceCameraPreviewSessionCurrentInstructionContentTextColor">
+        @color/idenfyWhite
+    </color>
+    <color name="idenfyFaceCameraPreviewTitleTextColor">@color/idenfyWhite</color>
+    <color name="idenfyFaceCameraPreviewDescriptionTextColor">@color/idenfyWhite</color>
+
+    <!-- Liveness Colors -->
+
+    <color name="idenfyFaceCameraPreviewSessionLivenessMaskColor">@color/idenfyBlack</color>
+    <color name="idenfyFaceCameraPreviewSessionInstructionLivenessMaskColor">@color/idenfyBlack
+    </color>
+    <color name="idenfyFaceCameraPreviewSessionLivenessAccentColor">@color/idenfyMainColorV2</color>
+
+</resources>

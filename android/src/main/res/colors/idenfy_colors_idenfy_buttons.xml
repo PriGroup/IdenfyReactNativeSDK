@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="idenfyGradientButtonColorStart">@color/idenfyMainColorV2</color>
+    <color name="idenfyGradientButtonColorEnd">@color/idenfyGradientAccentV2</color>
+
+</resources>
