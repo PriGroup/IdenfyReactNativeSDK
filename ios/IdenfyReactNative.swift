@@ -31,8 +31,8 @@ class IdenfyReactNative: NSObject {
                 .withAuthToken(authToken)
                 .build()
             
-            let idenfyColorMain = "#EA9619"
-            let idenfyColorButton = "#6539AC"
+            let idenfyColorMain = "#CCB13A"
+            let idenfyColorButton = "#CCB13A"
             IdenfyCommonColors.idenfyMainColorV2 = UIColor(hexString: idenfyColorMain)
             IdenfyCommonColors.idenfyMainDarkerColorV2 = UIColor(hexString: idenfyColorMain)
             IdenfyCommonColors.idenfyGradientColor1V2 = UIColor(hexString: idenfyColorButton)
