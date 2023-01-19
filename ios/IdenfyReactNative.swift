@@ -27,40 +27,44 @@ class IdenfyReactNative: NSObject {
                      rejecter reject: @escaping RCTPromiseRejectBlock) {
         do {
             let authToken = GetSdkConfig.getAuthToken(config: config)
-            let idenfySettingsV2 = IdenfyBuilderV2()
-                .withAuthToken(authToken)
-                .build()
             
-            let idenfyColorMain = "#CCB13A"
-            let idenfyColorButton = "#CCB13A"
-            IdenfyCommonColors.idenfyMainColorV2 = UIColor(hexString: idenfyColorMain)
-            IdenfyCommonColors.idenfyMainDarkerColorV2 = UIColor(hexString: idenfyColorMain)
-            IdenfyCommonColors.idenfyGradientColor1V2 = UIColor(hexString: idenfyColorButton)
-            IdenfyCommonColors.idenfyGradientColor2V2 = UIColor(hexString: idenfyColorButton)
-
-            IdenfyToolbarUISettingsV2.idenfyDefaultToolbarBackgroundColor = UIColor(hexString: idenfyColorMain)
+            
+            let idenfyColorMain = UIColor(hexString: "#CCB13A")
+            let idenfyColorMainDarker = UIColor(hexString: "#A8922D")
+            let idenfyColorButton = UIColor(hexString: "#CCB13A")
+            let backgroundColor = UIColor(hexString: "#FFE5BD")
+            
+            IdenfyCommonColors.idenfyMainColorV2 = idenfyColorMain
+            IdenfyCommonColors.idenfyMainDarkerColorV2 = idenfyColorMainDarker
+            IdenfyCommonColors.idenfyGradientColor1V2 = idenfyColorMain
+            IdenfyCommonColors.idenfyGradientColor2V2 = idenfyColorMainDarker
+            IdenfyCommonColors.idenfyMainDarkerColorV2 = idenfyColorMainDarker
+            IdenfyCommonColors.idenfyPhotoResultDetailsCardBackgroundColorV2 = backgroundColor
+            
+            IdenfyToolbarUISettingsV2.idenfyDefaultToolbarBackgroundColor = idenfyColorMain
 
             IdenfyToolbarUISettingsV2.idenfyDefaultToolbarBackIconTintColor = IdenfyCommonColors.idenfyBlack
             IdenfyToolbarUISettingsV2.idenfyDefaultToolbarLogoIconTintColor = IdenfyCommonColors.idenfyBlack
-
-            IdenfyToolbarUISettingsV2.idenfyLanguageSelectionToolbarLanguageSelectionIconTintColor  = IdenfyCommonColors.idenfyBlack
-            IdenfyToolbarUISettingsV2.idenfyLanguageSelectionToolbarCloseIconTintColor = IdenfyCommonColors.idenfyBlack
-
-            IdenfyCommonColors.idenfyPhotoResultDetailsCardBackgroundColorV2 = UIColor(hexString: "#FFE5BD")
-
-            IdenfyPhotoResultViewUISettingsV2.idenfyPhotoResultViewDetailsCardTitleColor = UIColor(hexString: idenfyColorButton)
-
             
-             let idenfyController = IdenfyController.shared
+            IdenfyCameraPermissionViewUISettingsV2.idenfyCameraPermissionViewGoToSettingsButtonTextColor = idenfyColorMain
+            IdenfyCameraPermissionViewUISettingsV2.idenfyCameraPermissionViewBackgroundColor = idenfyColorMain
+            
+            
+            IdenfyFaceAuthenticationInitialViewUISettingsV2.idenfyFaceAuthenticationInitialViewBackgroundColor = idenfyColorMain
+            IdenfyFaceAuthenticationResultsViewUISettingsV2.idenfyFaceAuthenticationResultsViewBackgroundColor = idenfyColorMain
+            IdenfyFaceCameraSessionUISettingsV2.idenfyFaceCameraPreviewSessionBackgroundColor = idenfyColorMain
+
+            IdenfyToolbarUISettingsV2.idenfyLanguageSelectionToolbarLanguageSelectionIconTintColor = IdenfyCommonColors.idenfyBlack
+            IdenfyToolbarUISettingsV2.idenfyLanguageSelectionToolbarCloseIconTintColor = IdenfyCommonColors.idenfyBlack
+            
+            IdenfyFaceAuthenticationInitialViewUISettingsV2.idenfyFaceAuthenticationInitialViewBackgroundColor = idenfyColorMain
+
+            IdenfyPhotoResultViewUISettingsV2.idenfyPhotoResultViewDetailsCardTitleColor = idenfyColorButton
+            
+            let idenfyController = IdenfyController.shared
+            
             let faceReauthenticationInitialization = FaceAuthenticationInitialization(authenticationToken: authToken, withImmediateRedirect: false)
             idenfyController.initializeFaceAuthentication(faceAuthenticationInitialization: faceReauthenticationInitialization)
-            
-            // let idenfyViewsV2:IdenfyViewsV2 = IdenfyViewsBuilderV2()
-            //     .withCountryCellView(CountryCell.self)
-            //     .build()
-
-            // let idenfyController = IdenfyController.shared
-            // idenfyController.initializeIdenfySDKV2WithManual(idenfySettingsV2: idenfySettingsV2, idenfyViewsV2: idenfyViewsV2)
 
             let idenfyVC = idenfyController.instantiateNavigationController()
 
