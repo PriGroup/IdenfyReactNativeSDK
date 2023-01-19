@@ -27,7 +27,9 @@ class IdenfyReactNative: NSObject {
                      rejecter reject: @escaping RCTPromiseRejectBlock) {
         do {
             let authToken = GetSdkConfig.getAuthToken(config: config)
-            
+            let idenfySettingsV2 = IdenfyBuilderV2()
+                .withAuthToken(authToken)
+                .build()
             
             let idenfyColorMain = UIColor(hexString: "#CCB13A")
             let idenfyColorMainDarker = UIColor(hexString: "#A8922D")
@@ -62,12 +64,10 @@ class IdenfyReactNative: NSObject {
             IdenfyPhotoResultViewUISettingsV2.idenfyPhotoResultViewDetailsCardTitleColor = idenfyColorButton
             
             let idenfyController = IdenfyController.shared
-            
-            let faceReauthenticationInitialization = FaceAuthenticationInitialization(authenticationToken: authToken, withImmediateRedirect: false)
-            idenfyController.initializeFaceAuthentication(faceAuthenticationInitialization: faceReauthenticationInitialization)
+            idenfyController.initializeIdenfySDKV2WithManual(idenfySettingsV2: idenfySettingsV2)
 
             let idenfyVC = idenfyController.instantiateNavigationController()
-
+            
             idenfyVC.modalPresentationStyle = .fullScreen
 
             UIApplication.shared.windows.first?.rootViewController?.present(idenfyVC, animated: true)
