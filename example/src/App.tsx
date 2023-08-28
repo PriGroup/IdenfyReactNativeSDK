@@ -1,37 +1,65 @@
 import { StyleSheet, View, Text, TouchableOpacity } from 'react-native';
-import { start, startFaceReAuth } from 'idenfy-react-native';
 import React, { Component } from 'react';
 import LinearGradient from 'react-native-linear-gradient';
 import { Buffer } from 'buffer';
-import { apiKey, apiSecret, BASE_URL, clientId, scanRef } from './Consts';
+import {
+  apiKey,
+  apiSecret,
+  BASE_URL,
+  clientId,
+  scanRef,
+  authenticationMethod,
+} from './Consts';
+import { start, startFaceReAuth } from 'idenfy-react-native';
+import { IdenfyFaceAuthUIBuilder } from './IdenfyFaceAuthUIBuilder';
+
 global.Buffer = Buffer; // very important
 export default class App extends Component {
   state = {
     title: 'Sample iDenfy app',
     subtitle: 'Press button to begin identification!',
     buttonTitle: 'BEGIN IDENTIFICATION',
+    faceAuthButtonTitle: 'BEGIN FACE AUTHENTICATION',
     message: '--',
     sdkToken: '',
     sdkFlowComplete: false,
   };
 
-  getAuthTokenForFaceReauth = () => {
+  getFaceAuthTokenType = () => {
     let encodedAuth = new Buffer(apiKey + ':' + apiSecret).toString('base64');
-    return fetch(BASE_URL + 'partner/authentication-info', {
-      method: 'POST',
-      headers: {
-        'Accept': 'application/json',
-        'Content-Type': 'application/json',
-        'Authorization': 'Basic ' + encodedAuth,
-      },
-      body: JSON.stringify({
-        scanRef: scanRef,
-      }),
-    })
+    return fetch(
+      BASE_URL +
+        'identification/facial-auth/' +
+        scanRef +
+        '/check-status/?method=' +
+        authenticationMethod,
+      {
+        method: 'GET',
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json',
+          'Authorization': 'Basic ' + encodedAuth,
+        },
+      }
+    )
       .then((response) => {
         console.log(response);
         if (response.ok) {
-          response.json().then((json) => this.startFaceReAuthSDK(json.token));
+          response.json().then((json) => {
+            switch (json.type) {
+              case 'AUTHENTICATION':
+                //The user can authenticate by face
+                this.getAuthTokenForFaceAuth(json.type);
+                break;
+              case 'ENROLLMENT':
+                //The user must perform an enrollment, since the identification was performed with an older face tec version
+                this.getAuthTokenForFaceAuth(json.type);
+                break;
+              default:
+                //The user must perform an identification
+                break;
+            }
+          });
         } else {
           response.json().then((json) => {
             console.log(json);
@@ -54,9 +82,59 @@ export default class App extends Component {
         console.error(error);
       });
   };
-  startFaceReAuthSDK = (authToken: String) => {
+
+  getAuthTokenForFaceAuth = (type: String) => {
+    let encodedAuth = new Buffer(apiKey + ':' + apiSecret).toString('base64');
+    return fetch(BASE_URL + 'partner/authentication-info', {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json',
+        'Authorization': 'Basic ' + encodedAuth,
+      },
+      body: JSON.stringify({
+        scanRef: scanRef,
+        type: type,
+        method: authenticationMethod,
+      }),
+    })
+      .then((response) => {
+        console.log(response);
+        if (response.ok) {
+          response.json().then((json) => this.startFaceAuthSDK(json.token));
+        } else {
+          response.json().then((json) => {
+            console.log(json);
+            this.setState({
+              message:
+                'Error getting authToken, status code is: ' +
+                response.status.toString() +
+                '\n \n Response: ' +
+                JSON.stringify(json),
+              sdkFlowComplete: true,
+            });
+          });
+        }
+      })
+      .catch((error) => {
+        this.setState({
+          message: error.message,
+          sdkFlowComplete: true,
+        });
+        console.error(error);
+      });
+  };
+
+  startFaceAuthSDK = (authToken: String) => {
+    let idenfyFaceAuthUISettings = new IdenfyFaceAuthUIBuilder()
+      .withLanguageSelection(true)
+      .withOnBoardingView(true)
+      .build();
+
     startFaceReAuth({
       authToken: authToken,
+      withImmediateRedirect: false,
+      idenfyFaceAuthUISettings: idenfyFaceAuthUISettings,
     })
       .then((response) => {
         this.setState({
@@ -148,9 +226,24 @@ export default class App extends Component {
             <Text style={styles.buttonTitle}>{this.state.buttonTitle}</Text>
           </LinearGradient>
         </TouchableOpacity>
+        <TouchableOpacity
+          style={styles.faceAuthButton}
+          onPress={() => this.getFaceAuthTokenType()}
+        >
+          <LinearGradient
+            angle={90}
+            useAngle={true}
+            colors={['#536DFE', '#8D6CFB']}
+            style={styles.gradient}
+          >
+            <Text style={styles.buttonTitle}>
+              {this.state.faceAuthButtonTitle}
+            </Text>
+          </LinearGradient>
+        </TouchableOpacity>
         {this.state.sdkFlowComplete ? (
           <Text style={styles.resultMessage}>
-            Identification result: {this.state.message}
+            Results: {this.state.message}
           </Text>
         ) : null}
       </View>
@@ -192,6 +285,21 @@ const styles = StyleSheet.create({
     marginBottom: 48,
   },
   buttonTitle: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    textAlign: 'center',
+    color: '#FFFFFF',
+  },
+  faceAuthButton: {
+    position: 'absolute',
+    bottom: 0,
+    height: 56,
+    left: 0,
+    right: 0,
+    margin: 32,
+    marginBottom: 116,
+  },
+  faceAuthButtonTitle: {
     fontSize: 16,
     fontWeight: 'bold',
     textAlign: 'center',
